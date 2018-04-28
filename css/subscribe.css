@@ -338,7 +338,15 @@
    margin:10px auto;
 }
 .pop-up .content img {
+<<<<<<< HEAD
 	display:none;
+=======
+  width: 100%;
+  max-width: 120px;
+  display: inline-block;
+  margin: 5px;
+  display:none;
+>>>>>>> a18c3f4569f1c7c173286f603c553407ed0bce5f
 }
     .pop-up .content .subscribe form input[type=submit] {
         margin-bottom: 10px;
