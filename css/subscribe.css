@@ -342,6 +342,7 @@
   max-width: 120px;
   display: inline-block;
   margin: 5px;
+  display:none;
 }
     .pop-up .content .subscribe form input[type=submit] {
         margin-bottom: 10px;
