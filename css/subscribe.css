@@ -315,7 +315,7 @@
   top: 50%;
   left: 50%;
   overflow: hidden;
-    height:340px;
+    height:300px;
 }
 .pop-up .content {
   width: 100%;
@@ -335,13 +335,10 @@
   font-size: 1.5rem;
 }
 .pop-up .content .subscribe h1 {
-    margin-bottom: 10px;
+   margin:10px auto;
 }
 .pop-up .content img {
-  width: 100%;
-  max-width: 120px;
-  display: inline-block;
-  margin: 5px;
+	display:none;
 }
     .pop-up .content .subscribe form input[type=submit] {
         margin-bottom: 10px;
