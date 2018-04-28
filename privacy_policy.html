@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Moto-Streets | Home</title>
+
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="">
+
+  <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet'>
+
+  <!-- Css -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/font-icons.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/subscribe.css"/>
+
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="img/moto_favicon.png">
+  <!--<link rel="apple-touch-icon" href="img/apple-touch-icon2.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">-->
+
+  <!-- Lazyload -->
+  <script src="js/lazysizes.min.js"></script>
+  
+
+</head>
+
+<body class="bg-light single-post">
+
+  <!-- Preloader -->
+  <div class="loader-mask">
+    <div class="loader">
+      <div></div>
+    </div>
+  </div>
+  
+  <!-- Bg Overlay -->
+  <div class="content-overlay"></div>
+
+ <!-- Sidenav -->    
+  <header class="sidenav" id="sidenav">
+
+    <!-- close -->
+    <div class="sidenav__close">
+      <button class="sidenav__close-button" id="sidenav__close-button" aria-label="close sidenav">
+        <i class="ui-close sidenav__close-icon"></i>
+      </button>
+    </div>
+    
+    <!-- Nav -->
+    <nav class="sidenav__menu-container">
+      <ul class="sidenav__menu" role="menubar">
+        <!-- Categories -->
+        <li>
+          <a href="index.html" class="sidenav__menu-link sidenav__menu-link-category sidenav__menu-link--orange">Home</a>
+        </li>
+        <li>
+          <a href="categories.html" class="sidenav__menu-link sidenav__menu-link-category sidenav__menu-link--blue">News</a>
+        </li>
+        
+        <li>
+          <a href="categories.html" class="sidenav__menu-link sidenav__menu-link--light-blue">Featured</a>
+        </li>
+        
+        <li>
+          <a href="#" class="sidenav__menu-link sidenav__menu-link-category sidenav__menu-link--red">Auto Expo</a>
+            <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+          <ul class="sidenav__menu-dropdown">
+            <li><a href="categories.html" class="sidenav__menu-link">Sports/GTs</a></li>
+            <li><a href="categories.html" class="sidenav__menu-link">Supercars</a></li>
+            <li><a href="categories.html" class="sidenav__menu-link">Hybrid/Electric</a></li>
+            <li><a href="categories.html" class="sidenav__menu-link">Luxury Cars</a></li>
+            <li><a href="categories.html" class="sidenav__menu-link">Convertibles</a></li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href="#" class="sidenav__menu-link sidenav__menu-link-category sidenav__menu-link--red">Moto Expo</a>
+            <button class="sidenav__menu-toggle" aria-haspopup="true" aria-label="Open dropdown"><i class="ui-arrow-down"></i></button>
+          <ul class="sidenav__menu-dropdown">
+            <li><a href="categories.html" class="sidenav__menu-link">First Ride</a></li>
+            <li><a href="categories.html" class="sidenav__menu-link">Sports Bike </a></li>
+            <li><a href="categories.html" class="sidenav__menu-link">Street Bike</a></li>
+            <li><a href="categories.html" class="sidenav__menu-link">Modified Bike</a></li>
+          </ul>
+        </li>
+        
+        <li>
+          <a href="shop.html" class="sidenav__menu-link sidenav__menu-link-category sidenav__menu-link--salad">Shop</a>
+        </li>
+
+        <!--<li>
+          <a href="#" class="sidenav__menu-link">About Us</a>
+        </li>
+        <li>
+          <a href="#" class="sidenav__menu-link">Privacy Policy</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidenav__menu-link">Contact</a>
+        </li>-->
+
+      </ul>
+    </nav>
+
+    
+  </header> <!-- end sidenav -->
+
+  <main class="main oh" id="main">
+
+  <!-- Navigation -->
+    <header class="nav">
+
+      <div class="nav__holder nav--sticky">
+        <div class="container relative">
+          <div class="flex-parent">
+
+            <!-- Side Menu Button -->
+            <button class="nav-icon-toggle" id="nav-icon-toggle" aria-label="Open side menu">
+              <span class="nav-icon-toggle__box">
+                <span class="nav-icon-toggle__inner"></span>
+              </span>
+            </button> <!-- end Side menu button -->
+
+            <!-- Mobile logo -->
+            <a href="index.html" class="logo logo--mobile d-lg-none">
+              <img class="logo__img" src="img/moto_logo_mbl.png" srcset="img/moto_logo_mbl.png 1x, img/moto_logo_mbl@2x.png 2x" alt="logo">
+            </a>
+
+            <!-- Nav-wrap -->
+            <nav class="flex-child nav__wrap d-none d-lg-block">              
+              <ul class="nav__menu">
+
+                <li class="active">
+                  <a href="index.html">Home</a>
+                </li>
+
+                <li class="nav__dropdown">
+                  <a href="categories.html">News</a>
+                </li>
+
+                <li class="nav__dropdown">
+                  <a href="categories.html">Featured</a>
+                </li>
+                
+                <li class="nav__dropdown">
+                  <a href="#">Auto Expo</a>
+                  <ul class="nav__dropdown-menu">
+                    <li><a href="categories.html">Sports/GTs</a></li>
+                    <li><a href="categories.html">Hybrid/Electric</a></li>
+                    <li><a href="categories.html">Supercars</a></li>
+                    <li><a href="categories.html">Luxury Cars</a></li>
+                    <li><a href="categories.html">Convertibles</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav__dropdown">
+                  <a href="#">Moto Expo</a>
+                  <ul class="nav__dropdown-menu">
+                    <li><a href="categories.html">First Ride </a></li>
+                    <li><a href="categories.html">Sports Bike </a></li>
+                    <li><a href="categories.html">Street Bike</a></li>
+                    <li><a href="categories.html">Modified Bike</a></li>
+                  </ul>
+                </li>
+
+                <li>
+                  <a href="shop.html">Shop</a>
+                </li>
+
+
+              </ul> <!-- end menu -->
+            </nav> <!-- end nav-wrap -->
+
+            <!-- Nav Right -->
+            <div class="nav__right nav--align-right d-lg-flex">
+
+              <!-- Search -->
+              <div class="nav__right-item nav__search">
+                <a href="#" class="nav__search-trigger" id="nav__search-trigger">
+                  <i class="ui-search nav__search-trigger-icon"></i>
+                </a>
+                <div class="nav__search-box" id="nav__search-box">
+                  <form class="nav__search-form">
+                    <input type="text" placeholder="Search an article" class="nav__search-input">
+                    <button type="submit" class="search-button btn btn-lg btn-color btn-button">
+                      <i class="ui-search nav__search-icon"></i>
+                    </button>
+                  </form>
+                </div>
+                
+              </div>
+
+            </div> <!-- end nav right -->  
+        
+          </div> <!-- end flex-parent -->
+        </div> <!-- end container -->
+
+      </div>
+    </header> <!-- end navigation -->
+  
+    <!-- Header -->
+    <div class="header">
+      <div class="container">
+        <div class="flex-parent align-items-center">
+          
+          <!-- Logo -->
+          <a href="index.html" class="logo d-none d-lg-block">
+            <img class="logo__img" src="img/moto_logo.png" srcset="img/moto_logo.png 1x, img/moto_logo@2x.png 2x" alt="logo">
+          </a>
+
+          <!-- Ad Banner 728 -->
+          <div class="text-center" >
+              <img class="subscribe" src="img/Moto_banner_animate1.gif" alt="Subscribe">
+          </div> 
+
+        </div>
+      </div>
+    </div> <!-- end header -->
+
+<div class="pop-up mbl">
+  <div class="content">
+    <div class="container">
+      <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+      
+      <span class="close">close</span>
+      
+      <div class="title">
+        <h1>subscribe</h1>
+      </div>
+      
+      <img src="img/subscribe_img.png" alt="Car">
+      
+      <div class="subscribe">
+        <h1>Subscribe to get the latest <span>news &amp; updates</span>.</h1>
+      
+        <form>
+          <input type="email" placeholder="Your email address" required="">
+          <input type="submit" value="Subscribe">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+   
+ 
+    <!-- Page Title -->
+    <section class="page-title" style="background-image: url(https://www.theneweconomy.com/wp-content/uploads/2014/06/Tesla-car-dealership-2.jpg);">
+      <div class="full-overlay"></div>
+      <div class="container">
+        <div class="page-title__holder">
+          <h1 class="page-title__title">Privacy Policy MOTOSTREETS</h1>
+          <p class="lead white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eveniet architecto, dolorum cumque.</p>
+        </div>        
+      </div>
+    </section>
+
+    <div class="main-container container" id="main-container">
+
+      <!-- Content -->
+      <div class="row">
+            
+        <!-- post content -->
+        <div class="col-lg-12 blog__content mb-30">          
+          <div class="row">
+            <div class="col-md-6 mb-30">
+              <h2>That's how it started</h2>
+              <p class="lead mb-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eveniet architecto, dolorum cumque, tenetur nisi. Minus amet ullam ipsum accusamus voluptatem libero reiciendis quod adipisci perspiciatis tenetur, consectetur pariatur accusantium.</p>
+
+              <p>ab sit similique unde eum quia incidunt. Suscipit sint aperiam laudantium provident temporibus distinctio inventore sit vero minus, aliquam nesciunt tempore dicta quo quos magni delectus quae aspernatur nihil deserunt voluptatum optio! Ducimus nobis soluta expedita quae, deserunt perspiciatis neque aliquid praesentium voluptas! Aliquid nobis tenetur iste possimus praesentium nisi, quasi sunt deleniti error repudiandae soluta molestias sed amet officia consectetur, voluptas eum eveniet obcaecati, nesciunt.</p>             
+            </div>
+            <div class="col-md-6">
+              <img data-src="img/blog/about_img.jpg" src="img/empty.png" class="lazyload" alt="">             
+            </div>
+          </div>
+
+          <div class="row mt-60">
+            <div class="col-md-6">
+              <img data-src="img/blog/about_img_2.jpg" src="img/empty.png" class="lazyload" alt="">             
+            </div>
+            <div class="col-md-6 mb-30">
+              <h2>The Big Outreach</h2>
+              <p class="lead mb-20">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed eveniet architecto, dolorum cumque, tenetur nisi. Minus amet ullam ipsum accusamus voluptatem libero reiciendis quod adipisci perspiciatis tenetur, consectetur pariatur accusantium.</p>
+
+              <p>ab sit similique unde eum quia incidunt. Suscipit sint aperiam laudantium provident temporibus distinctio inventore sit vero minus, aliquam nesciunt tempore dicta quo quos magni delectus quae aspernatur nihil deserunt voluptatum optio! Ducimus nobis soluta expedita quae, deserunt perspiciatis neque aliquid praesentium voluptas! Aliquid nobis tenetur iste possimus praesentium nisi, quasi sunt deleniti error repudiandae soluta molestias sed amet officia consectetur, voluptas eum eveniet obcaecati, nesciunt.</p>             
+            </div>            
+          </div>
+
+        </div> <!-- end col -->
+      
+      </div> <!-- end content -->
+    </div> <!-- end main container -->
+
+  <!-- Footer -->
+    <footer class="footer footer--dark">
+      <div class="container">
+        <div class="footer__widgets">
+          <div class="row">
+
+            <div class="col-lg-3 col-md-6">
+              <div class="widget">
+                <a href="index.html">
+                  <img src="img/moto_logo_footer.png" srcset="img/moto_logo_footer.png 1x, img/moto_logo_footer@2x.png 2x" class="logo__img" alt="">
+                </a>
+                <p class="mt-20">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <h4 class="widget-title">Latest Posts</h4>
+              <ul class="post-list-small">
+                <li class="post-list-small__item">
+                  <article class="post-list-small__entry clearfix">
+                    <div class="post-list-small__img-holder">
+                      <div class="thumb-container thumb-75">
+                        <a href="single-post.html">
+                          <img data-src="img/img_1.jpeg" src="img/img_1.jpeg" alt="" class="lazyload">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post-list-small__body">
+                      <h3 class="post-list-small__entry-title">
+                        <a href="single-post.html">It is a long established fact that a reader will be distracted</a>
+                      </h3>
+                      <ul class="entry__meta">
+                        <li class="entry__meta-date">
+                          <i class="ui-date"></i>
+                          1 March, 2018
+                        </li>
+                      </ul>
+                    </div>                  
+                  </article>
+                </li>
+                <li class="post-list-small__item">
+                  <article class="post-list-small__entry clearfix">
+                    <div class="post-list-small__img-holder">
+                      <div class="thumb-container thumb-75">
+                        <a href="single-post.html">
+                          <img data-src="img/img_2.jpeg" src="img/img_2.jpeg" alt="" class="lazyload">
+                        </a>
+                      </div>
+                    </div>
+                    <div class="post-list-small__body">
+                      <h3 class="post-list-small__entry-title">
+                        <a href="single-post.html">It is a long established fact that a reader will be distracted</a>
+                      </h3>
+                      <ul class="entry__meta">
+                        <li class="entry__meta-date">
+                          <i class="ui-date"></i>
+                          1 March, 2018
+                        </li>
+                      </ul>
+                    </div>                  
+                  </article>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6">
+              <div class="widget widget__newsletter">
+                <!--<h4 class="widget-title">Follow us</h4>
+
+                <div class="socials mb-20">
+                  <a href="#" class="social social-facebook" aria-label="facebook"><i class="ui-facebook"></i></a>
+                  <a href="#" class="social social-twitter" aria-label="twitter"><i class="ui-twitter"></i></a>
+                  <a href="#" class="social social-google-plus" aria-label="google+"><i class="ui-google"></i></a>
+                  <a href="#" class="social social-youtube" aria-label="youtube"><i class="ui-youtube"></i></a>
+                  <a href="#" class="social social-instagram" aria-label="instagram"><i class="ui-instagram"></i></a>
+                </div>-->
+
+                <form class="mc4wp-form" method="post">
+                  <div class="mc4wp-form-fields">
+                    <h5>Subscribe for more updates</h5> 
+                    <p>
+                      <input type="text" name="NAME" placeholder="Your Name" required="">     
+                      <input type="email" name="EMAIL" placeholder="Your email" required="">
+                    </p>
+                    <p>
+                      <input type="submit" class="btn btn-lg btn-color" value="Subscribe">
+                    </p>
+                  </div>
+                </form>
+                
+              </div>
+            </div>            
+
+            <div class="col-lg-3 col-md-6">
+              <div class="widget widget_nav_menu">
+                <h4 class="widget-title">Useful Links</h4>
+                <ul>
+                  <li><a href="categories.html">News</a></li>
+                  <li><a href="categories.html">Featured</a></li>
+                  <li><a href="categories.html">Auto Expo</a></li>
+                  <li><a href="categories.html">Moto Expo</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                </ul>
+              </div>
+            </div>            
+
+          </div>
+        </div>    
+      </div> <!-- end container -->
+
+      <div class="footer__bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-7 order-lg-2 text-right text-md-center">
+              <div class="widget widget_nav_menu">
+                <ul>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="privacy_policy.html">Privacy</a></li>
+                  <!--<li><a href="#">Advertise</a></li>
+                  <li><a href="#">Affiliates</a></li>-->
+                  <li><a href="#" class="subscribe">Newsletter</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                </ul>
+              </div>              
+            </div>
+            <div class="col-lg-5 order-lg-1 text-md-center">
+              <span class="copyright">
+                &copy; 2017 MotoStreets | Made by <a href="#">Focus</a>
+              </span>
+            </div>            
+          </div>
+          
+        </div>
+      </div> <!-- end bottom footer -->
+    </footer> <!-- end footer -->
+
+    <div id="back-to-top">
+      <a href="#top" aria-label="Go to top"><i class="ui-arrow-up"></i></a>
+    </div>
+
+  </main> <!-- end main-wrapper -->
+
+  
+  <!-- jQuery Scripts -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/easing.min.js"></script>
+  <script src="js/owl-carousel.min.js"></script>
+  <script src="js/twitterFetcher_min.js"></script>
+  <script src="js/modernizr.min.js"></script>
+  <script src="js/jquery.appear.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</body>
+</html>
