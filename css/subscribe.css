@@ -305,7 +305,7 @@
 }
 @media(max-width:480px ){
     .mbl{
-        margin-top: 30%;
+        margin-top: 14%;
     }
     .pop-up.open{
         overflow: hidden;
@@ -339,9 +339,9 @@
 }
 .pop-up .content img {
   width: 100%;
-  max-width: 180px;
+  max-width: 120px;
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
 }
     .pop-up .content .subscribe form input[type=submit] {
         margin-bottom: 10px;
